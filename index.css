@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap');
+
+body {
+    font-family: 'Darumadrop One', cursive;
+    background-color: #BE5A83;
+}
+
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color: white; 
+    font-size: 52px;   
+}
+
+.subtitulo {
+    color: white;
+    font-size: 24px;
+}
+
+.tarjeta-de-mokepon {
+    width: 134px;
+    height: 160px;
+    background: #c984d5;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 5px solid #dfa4e9;
+    border-radius: 20px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white  
+}
+
+.tarjeta-de-mokepon img {
+    width: 90px;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 10px;
+}
+
+#boton-mascota {
+    width: 156px;
+    height: 61px;
+    background: #E06469;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 5px solid #ef7b7f;
+    border-radius: 50px;
+}
+
+input {
+    display: none;
+}
