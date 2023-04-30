@@ -38,21 +38,6 @@ function seleccionarMascotaJugador() {
     let inputLlamery = document.getElementById('llamery')
     let spanMascotaJugador = document.getElementById('mascota-jugador')
 
-    if (inputAwana.checked) {
-        spanMascotaJugador.innerHTML ='Awana'
-        alert('Seleccionaste a AWANA')
-    } else if (inputTorterra.checked) {
-        spanMascotaJugador.innerHTML ='Torterra'
-        alert('Seleccionaste a TORTERRA')
-    } else if (inputLlamery.checked) {
-        spanMascotaJugador.innerHTML ='Llamery'
-        alert('Seleccionaste a LLAMERY')
-    } else {
-        alert('Selecciona una mascota')
-        sectionSeleccionarMascota.style.display = 'block'
-        sectionSeleccionarAtaque.style.display = 'none'   
-    }
-
     seleccionarMascotaEnemigo()
 }
 
