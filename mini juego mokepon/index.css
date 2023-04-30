@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Darumadrop+One&family=Press+Start+2P&display=swap');
+
+body {
+    font-family: 'Darumadrop One', cursive;
+    background-color: #BE5A83;
+}
+
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo {
+    color: white; 
+    font-size: 52px;   
+}
+
+.subtitulo {
+    color: white;
+    font-size: 14px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.tarjeta-de-mokepon {
+    width: 134px;
+    height: 160px;
+    background: #c984d5;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 5px solid #dfa4e9;
+    border-radius: 20px;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white  
+}
+
+.tarjeta-de-mokepon img {
+    width: 90px;
+}
+
+.tarjetas {
+    display: flex;
+    gap: 10px;
+}
+
+#boton-mascota {
+    width: 200px;
+    height: 60px;
+    background: transparent;
+    margin-top: 30px;
+    border: 5px solid #ef7b7f;
+    border-radius: 50px;
+    font-family: 'Press Start 2P', cursive;
+    color: white
+}
+
+input {
+    display: none;
+}
